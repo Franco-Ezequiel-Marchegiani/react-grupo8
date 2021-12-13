@@ -6,7 +6,7 @@ let moviesInDB = {
     title: 'Productos en nuestras tiendas',
     color: 'primary', 
     cuantity: 22,
-    icon: 'fa-clipboard-list'
+    icon: 'fas fa-tshirt'
 }
 
 /* <!-- Total awards --> */
@@ -15,7 +15,7 @@ let totalAwards = {
     title:' Total de Sucursales', 
     color:'success', 
     cuantity: '9',
-    icon:'fa-award'
+    icon:'fas fa-building'
 }
 
 /* <!-- Actors quantity --> */
@@ -24,7 +24,7 @@ let actorsQuantity = {
     title:'Productos en Oferta' ,
     color:'warning',
     cuantity:'12',
-    icon:'fa-user-check'
+    icon:'fas fa-tag'
 }
 
 let cartProps = [moviesInDB, totalAwards, actorsQuantity];

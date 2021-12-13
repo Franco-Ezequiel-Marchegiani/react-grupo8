@@ -1,6 +1,7 @@
 import React from 'react';
 import './SideBar.css';
 import { Link } from 'react-router-dom'
+import Logo from '../../assets/images/logo.png'
 // import image from '../../assets/images/logo192.png'
 
 function SideBar() {
@@ -12,7 +13,7 @@ function SideBar() {
                 {/*<!-- Sidebar - Brand -->*/}
                 <Link to="/" className="sidebar-brand d-flex align-items-center justify-content-center">
                 <div className="sidebar-brand-icon">
-                        <img className="w-100" src="" alt="Digital House"/>
+                        <img className="w-100" src={Logo} alt="Digital House"/>
                     </div>
                 </Link>
 
