@@ -1,7 +1,8 @@
 import React from "react";
 import "./SideBar.css";
 import { Link } from "react-router-dom";
-import image from "../../assets/images/logo192.png";
+import Logo from "../../assets/images/logo.png";
+// import image from '../../assets/images/logo192.png'
 
 function SideBar() {
   return (
@@ -21,8 +22,15 @@ function SideBar() {
           </div>
         </Link>
 
-        {/*<!-- Divider -->*/}
-        <hr className="sidebar-divider my-0" />
+        {/*<!-- Sidebar - Brand -->*/}
+        <Link
+          to="/"
+          className="sidebar-brand d-flex align-items-center justify-content-center"
+        >
+          <div className="sidebar-brand-icon">
+            <img className="w-100" src={Logo} alt="Digital House" />
+          </div>
+        </Link>
 
         {/*<!-- Nav Item - Dashboard -->*/}
         <li className="nav-item active">

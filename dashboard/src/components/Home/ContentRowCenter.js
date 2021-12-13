@@ -1,14 +1,13 @@
 import React from 'react';
-import GenresInDb from './GenresInDb';
+import BranchList from './BranchList';
 import './Home.css';
 import LastProductInDb from './LastProductInDb';
-import TableHome from './TableHome';
 
 function ContentRowCenter() {
   return (
     <div className="row">
       <LastProductInDb/>
-      <GenresInDb/>
+      <BranchList/>
     </div>
   );
 }

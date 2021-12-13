@@ -3,28 +3,28 @@ import './Home.css';
 import SmallCard from './SmallCard';
 
 let moviesInDB = {
-    title: 'Movies in Data Base',
+    title: 'Productos en nuestras tiendas',
     color: 'primary', 
-    cuantity: 21,
-    icon: 'fa-clipboard-list'
+    cuantity: 22,
+    icon: 'fas fa-tshirt'
 }
 
 /* <!-- Total awards --> */
 
 let totalAwards = {
-    title:' Total awards', 
+    title:' Total de Sucursales', 
     color:'success', 
-    cuantity: '79',
-    icon:'fa-award'
+    cuantity: '9',
+    icon:'fas fa-building'
 }
 
 /* <!-- Actors quantity --> */
 
 let actorsQuantity = {
-    title:'Actors quantity' ,
+    title:'Productos en Oferta' ,
     color:'warning',
-    cuantity:'49',
-    icon:'fa-user-check'
+    cuantity:'12',
+    icon:'fas fa-tag'
 }
 
 let cartProps = [moviesInDB, totalAwards, actorsQuantity];
