@@ -1,7 +1,29 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Home.css';
 
 function GenresInDb() {
+
+ /*  const [marcas, setMarcas] = useState();
+  
+ 
+  useEffect(() =>{
+    fetch("http://localhost:3001/list",
+    {
+      method: 'GET',
+      headers: [
+        ["Content-Type", "application/json"],
+        ["Content-Type", "text/plain"], 
+        ["Content-Type", "multipart/form-data"]
+      ],
+      mode: "cors"
+    })
+    .then(respuesta => respuesta.json())
+    console.log("");
+     .then(data =>{
+      setMarcas(data.brand)
+    }) 
+  }, [])  */
+
   return (
     <div className="col-lg-6 mb-4">
       <div className="card shadow mb-4">

@@ -2,7 +2,6 @@ import React from 'react';
 import GenresInDb from './GenresInDb';
 import './Home.css';
 import LastProductInDb from './LastProductInDb';
-import TableHome from './TableHome';
 
 function ContentRowCenter() {
   return (
